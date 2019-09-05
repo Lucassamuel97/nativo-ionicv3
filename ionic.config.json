@@ -1,0 +1,7 @@
+{
+  "name": "testes_nativo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
