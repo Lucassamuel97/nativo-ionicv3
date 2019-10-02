@@ -7,6 +7,11 @@
 </ion-header>
 
 <ion-content padding>
+  
+  <ion-content padding>
+    <div #map id="map"></div>
+  </ion-content>
+
   <ion-content padding>
     {{resp_coords}} <br>
     Latitude: {{latitude}} <br>
@@ -18,9 +23,9 @@
   <ion-content padding>
     <img src="{{ photo }}" />
   </ion-content>
-  <ion-footer padding>
+  <ion-content padding>
     <button ion-button large block (click)="takePicture()">
       Câmera
     </button>
-  </ion-footer>
+  </ion-content>
 </ion-content>

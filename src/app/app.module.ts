@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { Camera } from '@ionic-native/camera';
 import { Geolocation } from '@ionic-native/geolocation';
+import { GoogleMaps } from '@ionic-native/google-maps';
 import { MyApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
@@ -38,6 +39,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SplashScreen,
     Camera,
     Geolocation,
+    GoogleMaps,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
